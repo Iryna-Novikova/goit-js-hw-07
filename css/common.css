@@ -9,6 +9,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #fafafa;
+  /* background-color: #fff; */
   color: #212121;
   line-height: 1.5;
 }
@@ -18,4 +19,45 @@ ol {
   list-style-type: none;
   margin: 0;
   padding-left: 0;
+}
+
+#categories {
+  display: flex;
+  row-gap: 24px;
+  flex-wrap: wrap;
+  max-width: 392px;
+}
+
+.item {
+  display: block;
+  width: 100%;
+  background-color: #f6f6fe;
+  color: #2e2f42;
+  border-radius: 8px;
+  padding: 16px;
+  /* height: 264px; */
+}
+
+.item h2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  padding: 0;
+  margin: 0 0 16px 0;
+}
+
+.item ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.item li {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 100%;
+  height: 40px;
+  padding: 8px 16px;
+  letter-spacing: 0.04em;
 }
