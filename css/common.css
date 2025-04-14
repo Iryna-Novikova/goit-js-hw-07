@@ -61,3 +61,22 @@ ol {
   padding: 8px 16px;
   letter-spacing: 0.04em;
 }
+
+/* styles for task2 */
+.gallery {
+  display: flex;
+  row-gap: 48px;
+  column-gap: 24px;
+  flex-wrap: wrap;
+  /* padding: 100px 156px;*/
+}
+
+.galleryItem {
+  width: calc((100% - 48px) / 3);
+}
+
+.galleryImage {
+  height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
