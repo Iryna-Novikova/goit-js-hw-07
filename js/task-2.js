@@ -25,14 +25,11 @@ const images = [
   }
 ];
 
-let gallery = document.querySelector(".gallery");
+let galleryElem = document.querySelector(".gallery");
 let imageList = '';
 
 for (const image of images) { 
-  imageList += `<li class=galleryItem > <img class="galleryImage" src=${image.url} alt=${image.alt}> </li> `
+  imageList += `<li class=galleryItem > <img class="galleryImage" src=${image.url} alt=${image.alt}/> </li> `
 }
 
-// console.log(gallery);
-// console.log(imageList);
-gallery.insertAdjacentHTML("afterbegin", imageList);
-// console.log(gallery);
+galleryElem.insertAdjacentHTML("afterbegin", imageList);

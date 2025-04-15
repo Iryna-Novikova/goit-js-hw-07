@@ -11,7 +11,10 @@ body {
   background-color: #fafafa;
   /* background-color: #fff; */
   color: #212121;
+
   line-height: 1.5;
+  letter-spacing: 0.04em;
+  font-size: 16px;
 }
 
 ul,
@@ -21,6 +24,12 @@ ol {
   padding-left: 0;
 }
 
+h1,
+h2 {
+  margin: 0;
+}
+
+/* styles for task1 */
 #categories {
   display: flex;
   row-gap: 24px;
@@ -79,4 +88,50 @@ ol {
   height: 100%;
   max-width: 100%;
   object-fit: cover;
+}
+
+/* styles for task3 */
+input {
+  width: 360px;
+  height: 40px;
+  padding: 8px 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #2e2f42;
+}
+
+#name-input {
+  margin-bottom: 16px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.33;
+  color: #2e2f42;
+}
+
+/* styles for task4 */
+.form-input,
+.form-label {
+  margin-bottom: 0;
+}
+
+.login-form {
+  display: flex;
+  padding: 24px;
+  flex-wrap: wrap;
+  width: 408px;
+  height: 256px;
+  border-radius: 8px;
+  gap: 8px;
+}
+
+/* .login-form.lastchild {
+  gap: 16px;
+} */
+
+.form-label {
+  color: #2e2f42;
 }
