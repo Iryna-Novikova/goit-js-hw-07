@@ -121,7 +121,7 @@ h1 {
 }
 
 .form-input {
-  margin: 0;
+  margin-top: 8px;
 }
 
 .login-form {
@@ -130,14 +130,10 @@ h1 {
   padding: 24px;
   flex-wrap: wrap;
   width: 408px;
-  height: 256px;
+  /* height: 256px; */
   border-radius: 8px;
-  gap: 8px;
-}
-
-/* .login-form.lastchild {
   gap: 16px;
-} */
+}
 
 /* .form-label {
   margin-bottom: 8px;
@@ -151,4 +147,12 @@ h1 {
   background: #4e75ff;
   color: #fff;
   font-weight: 500;
+}
+
+.change-color {
+  width: 148px;
+}
+
+.widget {
+  text-align: center;
 }

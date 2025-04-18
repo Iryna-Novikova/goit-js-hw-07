@@ -1,8 +1,8 @@
 let sbmtFormElem = document.querySelector('.login-form');
 
-sbmtFormElem.addEventListener('submit', formSubmit);
+sbmtFormElem.addEventListener('submit', onFormSubmit);
 
-function formSubmit(event) {
+function onFormSubmit(event) {
     event.preventDefault();
     const sbmtForm = event.target;
     const email= sbmtForm.elements.email.value.trim();
@@ -20,5 +20,4 @@ function formSubmit(event) {
         console.log(user);
         sbmtForm.reset();
     }
-  
-} 
+}
